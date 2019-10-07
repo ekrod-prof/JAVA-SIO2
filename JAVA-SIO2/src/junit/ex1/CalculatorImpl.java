@@ -53,21 +53,17 @@ public class CalculatorImpl implements Calculator{
 					i=i-1;
 					res=i;
 					//res=a1+"="+i+"x"+b1+substract(a1,multiply(i,b1));
-					System.out.println("** "+i+" "+a1/b1);
 					break;
 				}
 				else
 				{
 					res=i;
 					//res=a1+"="+i+"x"+b1+substract(a1,multiply(i,b1));
-					System.out.println("zz "+i+" "+a1/b1);
 					break;
 				}
 			}
-			System.out.println("for "+i+" "+a1/b1);
 		} //end for
 		if ((a>0 && b<0) | (a<0 && b>0)) {res=res*(-1);}
-	System.out.println("ppp "+i+" res="+res+"  "+a1/b1);
 	return res;
 	}
 		
