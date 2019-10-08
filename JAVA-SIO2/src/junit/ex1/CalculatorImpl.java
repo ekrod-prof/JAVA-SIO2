@@ -70,14 +70,7 @@ public class CalculatorImpl implements Calculator{
 	System.out.println("ppp "+i+" res="+res+"  "+a1/b1);
 	return res;
 	}
-		
-		
-	
-	
-	
-	
-	
-	
+
 	@Override
 	public int add(int a, int b) {
 		int res = a;
