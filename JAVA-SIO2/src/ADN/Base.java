@@ -34,6 +34,8 @@ public class Base {
 	}
 	public void setBase(int base) {
 		this.base = base;
+		this.res.clear();
+		this.traite(nbr,base);
 	}
 	public int getNbr() {
 		return nbr;
@@ -102,10 +104,10 @@ public class Base {
 	    
 	    public void traite(int vnbr, int vbase) //base 10 vers base vbase.vbnr en base 10.
 	    {
+	    
 	    	int reste=1;
 	    	int i;
 	    	int quotient;
-	    	boolean cond=true;
 	    	int puiss;
 	    	puiss=this.plusgrandePuissance(vnbr, vbase);
 	    	if (vnbr==0) {this.res.add(0);}

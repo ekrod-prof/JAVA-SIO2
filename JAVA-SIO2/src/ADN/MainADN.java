@@ -19,7 +19,8 @@ public class MainADN {
 		
 		Base obj=new Base(114,4);
 		obj.getRes();
-		obj.setNbr(256);
+		obj.setNbr(34520393);
+		obj.setBase(2);
 		obj.getRes();
 	}
 
