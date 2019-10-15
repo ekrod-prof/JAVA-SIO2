@@ -45,9 +45,7 @@ class CalculatorTest {
 				fail("FAIL");
 			}	
 		}
-		
 	
-
 		@Test
 		public final void testAdd() {
 			Calculator calc = new CalculatorImpl();
