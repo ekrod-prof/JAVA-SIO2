@@ -5,7 +5,8 @@ import org.junit.jupiter.api.Test;
 class CalculatorTest {
 	
 		@Test
-		public final void testDivide() {} //TODO
+		public final void testDivide() {} 
+		//TODO
 
 		@Test
 		public final void testAdd() {
@@ -40,7 +41,8 @@ class CalculatorTest {
 		}
 		
 		@Test
-		public final void testMultiply() {}// TODO
+		public final void testMultiply() {}
+		// TODO
 		
 
 }
